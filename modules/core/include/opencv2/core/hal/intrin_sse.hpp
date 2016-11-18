@@ -45,6 +45,14 @@
 #ifndef OPENCV_HAL_SSE_HPP
 #define OPENCV_HAL_SSE_HPP
 
+// STINGRAY COMPATIBILITY (Windows.h is being a lil' bitch)
+#ifdef max
+#undef max
+#endif
+#ifdef min
+#undef min
+#endif
+
 #include <algorithm>
 #include "opencv2/core/utility.hpp"
 
