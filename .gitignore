@@ -1,3 +1,7 @@
+#STINGRAY edit
+opencv_build/
+
+#ORIGINAL
 *.autosave
 *.pyc
 *.user
